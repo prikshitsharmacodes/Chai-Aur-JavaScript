@@ -19,3 +19,19 @@ const min = 10;
 const max = 20
 
 console.log(Math.floor(Math.random() * (max - min + 1 )) + min) 
+
+## Accessing object
+two ways
+-> jsuser.name
+-> jsuser["name"]
+
+-> 2 ways to make obj
+-> literal 
+-> constructor -> singelton
+
+-> symbol as key in obj
+const mySym = new Symbol("mySym")
+
+{
+    [mySym]="mykey"
+}
