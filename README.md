@@ -13,3 +13,9 @@ comparison > < >= <= converts null to number treating it as 0
 undefined ko kisi se check kro false hi dega
 
 === value tho check krta + datatype bi use krta
+
+## Math.random formula
+const min = 10;
+const max = 20
+
+console.log(Math.floor(Math.random() * (max - min + 1 )) + min) 
