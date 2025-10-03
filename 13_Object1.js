@@ -4,6 +4,8 @@
 // constructor -> singelton -> apni tarah ka ek hi hota
 
 //  constrcutor Object.create()
+
+
 // Object Literal
 
 
